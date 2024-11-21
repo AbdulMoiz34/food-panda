@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
         integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- AOS cdn -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -683,8 +683,8 @@
                         </svg>
                     </div>
                     <div class="vl"></div>
-                    <svg width="160" data-aos="fade-right" data-aos-offset="2000" height="32" viewBox="0 0 300 64" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
+                    <svg width="160" data-aos="fade-right" data-aos-offset="2000" height="32" viewBox="0 0 300 64"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="mask0_1088_35094" maskUnits="userSpaceOnUse" x="0" y="10" width="62" height="45"
                             style="mask-type: luminance;">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10H61.7303V55H0V10Z" fill="white">
@@ -753,10 +753,12 @@
             </div>
         </footer>
     </main>
-    <!-- AOS Library -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- AOS JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
     <script>
-        AOS.init();
+        document.addEventListener("DOMContentLoaded", function () {
+            AOS.init();
+        });
     </script>
 </body>
 
